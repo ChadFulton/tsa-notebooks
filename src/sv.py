@@ -26,7 +26,7 @@ class QLSV(sm.tsa.statespace.MLEModel):
     """
     Quasi-likelihood stochastic volatility
     """
-    def __init__(self, endog):
+    def __init__(self, endog, offset=0.001):
         # Convert to log squares
         endog = np.log(endog**2 + offset)
 
