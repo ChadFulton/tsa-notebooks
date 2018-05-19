@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scipy
+  - pandas=0.22
+  - matplotlib
+  - pandas-datareader
+  - seaborn
+  - pymc
+  - sympy
+  - cython
+  - pip:
+    - git+https://github.com/statsmodels/statsmodels
