@@ -5,6 +5,7 @@ dependencies:
   - numpy
   - scipy
   - pandas=0.22
+  - xlrd
   - matplotlib
   - pandas-datareader
   - seaborn
